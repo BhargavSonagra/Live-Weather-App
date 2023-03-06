@@ -1,0 +1,86 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(./image/thunderstorm-3417042_1920.jpg) no-repeat;
+  
+}
+.wraper{
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  letter-spacing: 1px;
+  }
+/* /////////////////<!-- CSS for Modal -->//////////////////// */
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #121212;
+    margin: 10% auto;
+    padding: 10px;
+    border: 2px solid #888;
+    width: 40%; 
+    height: auto;
+  }
+
+  /* The Close Button */
+  .close {
+   float: left;
+    color: #141313;
+    background-color: rgb(210, 223, 235);
+    width: 20px;
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: rgb(176, 64, 64);
+    background-color:red ;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* model ends */
+.card {
+  
+  padding: 3rem 1.8rem;
+  border-radius: 10px;
+  background: rgba(21, 32, 37, 0.818);
+}
+
+#searchtext {
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+
+#searchtext::placeholder {
+  font-weight: lighter;
+  color: rgb(185, 185, 181);
+}
+
+#result h2{
+  letter-spacing: 3px
+}
+
+
