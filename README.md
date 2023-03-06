@@ -1,4 +1,4 @@
-# Live-Weather-App
+# Responsive Live-Weather-App
 <b>Responsive Live weather app </b>
 </br>
 </br>
@@ -10,6 +10,12 @@ To use this application, simply download or clone the repository and open the in
 </br>
 <b>Features</b></br>
 Search for weather: </br>To search for the weather in a specific location, simply enter the city name in the search box and press Enter or click the "Search" button. The current weather for that location will be displayed, including the temperature, humidity, wind speed, and weather conditions.
+</br>
+
+<b>If city is Blank then shows error "Please Enter a City Name"</b>
+<b>If city is not valid then shows error "Enter a valid City Name"</b>
+
+</br>
 
 <b>Technologies Used</b>
 This application was created using the following technologies:
